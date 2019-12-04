@@ -1,0 +1,11 @@
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.exe
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.deps.json
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.runtimeconfig.json
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.runtimeconfig.dev.json
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.dll
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.pdb
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.csprojAssemblyReference.cache
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.AssemblyInfoInputs.cache
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.AssemblyInfo.cs
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.dll
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-5\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-5.pdb
