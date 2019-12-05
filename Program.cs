@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace HW_5
-{
+namespace CIDM4360Assignment5{
     class Program
     {
         static void Main(string[] args)
