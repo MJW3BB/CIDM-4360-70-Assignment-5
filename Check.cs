@@ -3,16 +3,23 @@ using System.Collections.Generic;
 
 class Check : Payment
 {
-    string Bank; //Bank Name
-    string custName; //Customer/client name
-    string accNum; //Account number
+    private string Bank; //Bank Name
+    private string custName; //Customer/client name
+    private string accNum; //Account number
 
-    verify(){
-
+    public Check(decimal amount, string bank, string custName, string accNum, string paymentDate) : base(amount, paymentDate){
+        this.bank = Bank; 
+        this.custName = custName; 
+        this.accNum = accNum;
     }
 
-    getPaymentType(){
+    public override bool verify(){
+        Console.WriteLine("Signature and balance verified...");
+        return true;
+    }
 
+    public override string getPaymentType(){
+        return getPaymentType;
     }
 
 }

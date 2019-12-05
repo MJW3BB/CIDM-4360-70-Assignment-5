@@ -3,15 +3,23 @@ using System.Collections.Generic;
 
 class Cash : Payment
 {
-    double tenderdCash; //Cash provided by customer, e.g. $200
-    double change; //Change given to customer
+    public double tenderedCash; //Cash provided by customer, e.g. $200
+    public double change; //Change given to customer
 
-    double calcChange(){
+    public Cash(decimal amount, string paymentDate, ) : base(amount, paymentDate){
 
     }
+    double calcChange(double change){
+        change = tenderedCash - amount; 
+        
+    }
 
-    string getPaymentType(){
-
+    public override bool verify(){
+        Console.WriteLine("Payment verified...");
+        return true;
+    }
+    public override string getPaymentType(){
+        return getPaymentType;
     }
 
 }

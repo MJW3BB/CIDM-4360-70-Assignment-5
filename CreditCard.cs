@@ -3,17 +3,25 @@ using System.Collections.Generic;
 
 class CreditCard : Payment
 {
-    string CCNum; //credit card number
-    string expDate; //Expiration date
-    string CHolderName; //Card holder name
-    string CType; //Card type
+    private string CCNum; //credit card number
+    private string expDate; //Expiration date
+    private string CHolderName; //Card holder name
+    private string CType; //Card type
 
-    verify(){
-
+    public CreditCard(double amount, string CCNum, string CType, string expDate, string CHolderName, string paymentDate ) : base(amount, paymentDate){
+        this.CCNum = CCNum;
+        this.CType = CType; 
+        this.expDate = expDate;
+        this.CHolderName = CHolderName;
     }
 
-    getPaymentType(){
+    public override bool verify(){
+        Console.WriteLine("Credit Card verified...");
+        return true;
+    }
 
+    public override string getPaymentType(){
+        return getPaymentType;
     }
 
 }

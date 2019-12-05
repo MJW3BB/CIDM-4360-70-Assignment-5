@@ -7,12 +7,17 @@ class Bill
     string Description;
     double Amount; //bill total amount
 
+    public Bill(string billDate, string Description, double Amount){
+        billDate = billDate; 
+        Description = Description;
+        Amount = Amount;
+    }
     string getBillInfo(){
 
     }
 
-    double getBalance(double amount){
-    Amount = amount;
+    double getBalance(double balance){
+        balance = Amount - Payment.getAmount();
     }
 
     bool addPayment(Payment p){
