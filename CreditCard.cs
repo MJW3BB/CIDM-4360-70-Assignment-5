@@ -21,7 +21,7 @@ class CreditCard : Payment
     }
 
     public override string getPaymentType(){
-        return getPaymentType;
+        return "Credit Card";
     }
 
 }

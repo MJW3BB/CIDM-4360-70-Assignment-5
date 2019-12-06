@@ -3,27 +3,30 @@ using System.Collections.Generic;
 
 abstract class Payment
 {
-    private double amount; //Amount of this payment
+    public double amount; //Amount of this payment
     public string paymentDate; //Date of this payment
 
-    public Payment(double amount, string paymentDate){
-        this.amount = amount;
-        this.paymentDate = paymentDate; 
+    static public void Payment(double Amount, string PaymentDate){
+        Amount = amount;
+        PaymentDate = paymentDate; 
     }
-    public double getAmount(string amount){
-        amount = amount;
+    public double getAmount(double amount){
+        this.amount = amount;
+        return amount;
     }
 
     public string getPaymentDate(string paymentDate){
-        paymentDate = paymentDate;
+        this.paymentDate = paymentDate;
+        return paymentDate;
     }
 
 //declared virtual to be overriden
     public virtual bool verify(){
-
+        Console.WriteLine("Payment verified...");
+        return true;
     }
 
 //Abstract method
-    abstract public string getPaymentType();
+    public abstract string getPaymentType();
 
 }

@@ -3,25 +3,45 @@ using System.Collections.Generic;
 
 class Bill
 {
-    string billDate;
-    string Description;
-    double Amount; //bill total amount
+    public string billDate;
+    public string Description;
+    public double Amount; //bill total amount
 
     public Bill(string billDate, string Description, double Amount){
-        billDate = billDate; 
-        Description = Description;
-        Amount = Amount;
+        this.billDate = billDate; 
+        this.Description = Description;
+        this.Amount = Amount;
     }
-    string getBillInfo(){
+    public string getBillInfo(){
+            Console.WriteLine($"Date: {billDate}");
+            Console.WriteLine($"Description: {Description}");
+            Console.WriteLine($"Amount due: {Amount}");
+            Console.WriteLine($"On {Payment.paymentDate} payment with {Payment.getPaymentType} the amount ${Payment.amount} was processed");
+            Console.WriteLine($"Total paid: {getBalance(total)}");
+            Console.WriteLine($"Remaining balance: {getBalance(balance)}");
 
     }
 
-    double getBalance(double balance){
-        balance = Amount - Payment.getAmount();
+    public double getBalance(double total, double balance){
+        
+        foreach (var a in Payment.amount){
+            total += Payment.getAmount();
+            return total;
+        }
+
+        balance = total;
+
+        return balance;
+
     }
 
-    bool addPayment(Payment p){
 
+    public bool addPayment(Payment p){
+        if(p.verify == true){
+            Payment.Add(p);
+            return true;
+        }
+        return false;
     }
 
 }

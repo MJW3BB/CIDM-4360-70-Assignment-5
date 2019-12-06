@@ -7,8 +7,8 @@ class Check : Payment
     private string custName; //Customer/client name
     private string accNum; //Account number
 
-    public Check(decimal amount, string bank, string custName, string accNum, string paymentDate) : base(amount, paymentDate){
-        this.bank = Bank; 
+    public Check(double amount, string Bank, string custName, string accNum, string paymentDate) : base(amount, paymentDate){
+        this.Bank = Bank; 
         this.custName = custName; 
         this.accNum = accNum;
     }
@@ -19,7 +19,7 @@ class Check : Payment
     }
 
     public override string getPaymentType(){
-        return getPaymentType;
+        return "Check";
     }
 
 }

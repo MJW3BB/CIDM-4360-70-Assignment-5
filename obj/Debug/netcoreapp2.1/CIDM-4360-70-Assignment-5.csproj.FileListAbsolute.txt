@@ -1,0 +1,4 @@
+/Users/Xander/Desktop/CIDM4360Assignment5/obj/Debug/netcoreapp2.1/CIDM-4360-70-Assignment-5.csprojAssemblyReference.cache
+/Users/Xander/Desktop/CIDM4360Assignment5/obj/Debug/netcoreapp2.1/CIDM-4360-70-Assignment-5.csproj.CoreCompileInputs.cache
+/Users/Xander/Desktop/CIDM4360Assignment5/obj/Debug/netcoreapp2.1/CIDM-4360-70-Assignment-5.AssemblyInfoInputs.cache
+/Users/Xander/Desktop/CIDM4360Assignment5/obj/Debug/netcoreapp2.1/CIDM-4360-70-Assignment-5.AssemblyInfo.cs

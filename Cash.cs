@@ -6,12 +6,13 @@ class Cash : Payment
     public double tenderedCash; //Cash provided by customer, e.g. $200
     public double change; //Change given to customer
 
-    public Cash(decimal amount, string paymentDate, ) : base(amount, paymentDate){
-
+    public Cash(double amount, string paymentDate, double change) : base(amount, paymentDate){
+        tenderedCash = amount;
+        this.change = amount - tenderedCash; 
     }
-    double calcChange(double change){
+    public double calcChange(double change){
         change = tenderedCash - amount; 
-        
+        return this.change;
     }
 
     public override bool verify(){
@@ -19,7 +20,7 @@ class Cash : Payment
         return true;
     }
     public override string getPaymentType(){
-        return getPaymentType;
+        return "Cash";
     }
 
 }
