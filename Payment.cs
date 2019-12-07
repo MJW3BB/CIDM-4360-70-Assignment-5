@@ -5,18 +5,19 @@ abstract class Payment
 {
     public double amount; //Amount of this payment
     public string paymentDate; //Date of this payment
+    
 
-    static public void Payment(double Amount, string PaymentDate){
-        Amount = amount;
-        PaymentDate = paymentDate; 
+    public Payment(double Amount, string PaymentDate){
+        this.Amount = amount;
+        this.PaymentDate = paymentDate; 
     }
     public double getAmount(double amount){
         this.amount = amount;
         return amount;
     }
 
-    public string getPaymentDate(string paymentDate){
-        this.paymentDate = paymentDate;
+    public string getPaymentDate(string PaymentDate){
+        this.PaymentDate = paymentDate;
         return paymentDate;
     }
 
