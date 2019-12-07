@@ -1,13 +1,11 @@
-﻿/* Nga Nguyen
-Beau Robbins
-Drew Pickering
-CIDM 4360-70
-Assignment 5 */
-
+﻿// CIDM-4360-70
+    // Vanessa Valenzuela
+    // Matthew Webb
+    // 12/06/2019
 
 using System;
 
-namespace Homework_5
+namespace WIP2
 {
     class Program
     {

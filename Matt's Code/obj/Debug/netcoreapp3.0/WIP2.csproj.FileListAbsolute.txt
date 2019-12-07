@@ -1,0 +1,11 @@
+D:\Files\Documents\Code Repo\WIP2\bin\Debug\netcoreapp3.0\WIP2.exe
+D:\Files\Documents\Code Repo\WIP2\bin\Debug\netcoreapp3.0\WIP2.deps.json
+D:\Files\Documents\Code Repo\WIP2\bin\Debug\netcoreapp3.0\WIP2.runtimeconfig.json
+D:\Files\Documents\Code Repo\WIP2\bin\Debug\netcoreapp3.0\WIP2.runtimeconfig.dev.json
+D:\Files\Documents\Code Repo\WIP2\bin\Debug\netcoreapp3.0\WIP2.dll
+D:\Files\Documents\Code Repo\WIP2\bin\Debug\netcoreapp3.0\WIP2.pdb
+D:\Files\Documents\Code Repo\WIP2\obj\Debug\netcoreapp3.0\WIP2.csprojAssemblyReference.cache
+D:\Files\Documents\Code Repo\WIP2\obj\Debug\netcoreapp3.0\WIP2.AssemblyInfoInputs.cache
+D:\Files\Documents\Code Repo\WIP2\obj\Debug\netcoreapp3.0\WIP2.AssemblyInfo.cs
+D:\Files\Documents\Code Repo\WIP2\obj\Debug\netcoreapp3.0\WIP2.dll
+D:\Files\Documents\Code Repo\WIP2\obj\Debug\netcoreapp3.0\WIP2.pdb
