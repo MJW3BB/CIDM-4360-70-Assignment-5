@@ -16,7 +16,7 @@ class Bill{
             string consolePrint = $"\nDate: {billDate} \nDescription: {description} \nAmount Due: ${amount}";
             foreach(var p in PaymentList)
             {
-                consolePrint =$"\nOn {p.getPaymentDate()} payment with {p.getPaymentType()} the amount ${p.amount} was processed.";
+                consolePrint +=$"\nOn {p.getPaymentDate()} payment with {p.getPaymentType()} the amount ${p.amount} was processed.";
             }
             consolePrint+=$"\nTotal paid: {getAmountPaid()} \nRemaining Balance: {amount}";
             return consolePrint;
